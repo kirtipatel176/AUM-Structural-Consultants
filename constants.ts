@@ -6,21 +6,21 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Structural Lead",
     education: "Master's degree in Structural Design",
     description: "With a Master’s degree in Structural Design from Charusat University, Hardik brings over 10 years of experience specializing in innovative structural solutions for high-rise buildings, industrial plants, and steel structures. His expertise in structural analysis and optimization ensures safe, cost-effective, and efficient designs. At Aum Consultants, he leads multidisciplinary teams with a strong commitment to technical excellence, practical problem-solving, and client satisfaction.",
-    imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=90&w=1200&auto=format&fit=crop"
+    imageUrl: "assets/hardik.webp"
   },
   {
     name: "Jaydeep Raghwani",
     role: "Structural Consultant",
     education: "Postgraduate in Structural Design",
     description: "A postgraduate in Structural Design from Charusat University, Jaydeep offers a balanced approach combining structural engineering expertise with extensive on-site execution experience. His hands-on involvement bridges design intentions and practical construction realities, ensuring smooth coordination, timely project completion, and superior quality control. His meticulous attention to detail and efficient on-site management make him a critical asset to the team.",
-    imageUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=90&w=1200&auto=format&fit=crop"
+    imageUrl: "assets/jaydeep.webp"
   },
   {
     name: "Meet Choksi",
     role: "Senior Consultant",
     education: "12+ Years Experience",
     description: "Meet Choksi brings over 12 years of extensive structural design experience, including managing overseas projects with excellence. His expertise spans advanced structural design software, BIM modeling, and detailed technical coordination, enabling him to manage complex projects effectively. Meet’s capability to seamlessly integrate global standards and deliver precise, high-quality solutions makes him instrumental in fulfilling Aum Consultants' vision of innovation and quality.",
-    imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=90&w=1200&auto=format&fit=crop"
+    imageUrl: "assets/meet.webp"
   }
 ];
 
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     structure: "70 Unit Duplex Bungalow Scheme",
     architect: "U A Design",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1592595896551-12b371d546d5?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "/assets/Madhav_image.webp",
     description: "A large-scale residential township offering modern living spaces with integrated community facilities."
   },
   {
@@ -86,7 +86,7 @@ export const PROJECTS: Project[] = [
     structure: "54 Unit Duplex Bungalow Scheme",
     architect: "AR. Nilesh Patel",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "/assets/Ganesh_residency.webp",
     description: "Premium duplex bungalows designed for luxury and comfort."
   },
   {
@@ -97,7 +97,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Ground + 5 Private Residential Building",
     architect: "Axis Studio Architects",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "/assets/dpr_residency.webp",
     description: "A private mid-rise residence focusing on vertical luxury living."
   },
   {
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 5 Residential Project",
     architect: "Vasundhra Architects",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/IOCL.webp",
     description: "Staff housing colony designed for efficiency and durability."
   },
   {
@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 7 Residential Project",
     architect: "Key Stone Architects",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1567684014761-b65e2e59b9eb?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/skyline.jpeg",
     description: "Mid-rise apartment complex offering modern amenities."
   },
   {
@@ -140,7 +140,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Podium + Ground + 14 Stories",
     architect: "Kekul Mistry",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/AKSHATAM LUXURIA.jpeg",
     description: "High-rise luxury apartments with a podium level for recreational activities."
   },
   {
@@ -656,7 +656,7 @@ export const PROJECTS: Project[] = [
     area: "Lake Garden",
     structure: "RCC Solutions for Landscape",
     category: ProjectCategory.PUBLIC_PARK,
-    imageUrl: "https://images.unsplash.com/photo-1563514227147-6d2ff63448fe?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "/assets/namo.webp",
     description: "Public lakefront redevelopment project."
   },
 
