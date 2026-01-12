@@ -107,7 +107,7 @@ export const PROJECTS: Project[] = [
     area: "1,80,000 Sq. Ft.",
     structure: "64 Unit Duplex Bungalow Scheme",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1580587771525-78b9dba3b91d?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/SAISWADWSH.jpeg",
     description: "Expansive residential society designed for community living."
   },
   {
@@ -151,7 +151,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Ground + 7 Residential Project",
     architect: "A & M Design Studio",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/DEVKUVAR – 7.webp",
     description: "Contemporary urban housing with structural efficiency."
   },
   {
@@ -162,7 +162,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Ground + 7 Residential Project",
     architect: "A & M Design Studio",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/DEVKUVAR–8.webp",
     description: "Extension of the Devkuvar series featuring modern structural design."
   },
   {
@@ -173,7 +173,7 @@ export const PROJECTS: Project[] = [
     structure: "6 Units (G+8, G+6, G+1)",
     architect: "CPWD",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/RESIDENTIALQUARTERS.webp",
     description: "Government residential quarters built to CPWD standards."
   },
   {
