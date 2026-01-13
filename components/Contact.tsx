@@ -88,12 +88,7 @@ const Contact: React.FC = () => {
               Partner with AUM Consultants for engineering solutions that stand the test of time. Let's discuss your next project.
             </p>
           </div>
-          <div className="mt-10 md:mt-0">
-            <a href="mailto:AUMSTRUCTURALDESIGN@GMAIL.COM" className="group flex items-center gap-4 px-8 py-4 bg-white text-black rounded-full text-sm font-bold uppercase tracking-widest hover:bg-aum-orange hover:text-white transition-all duration-300">
-              Get a Quote
-              <ArrowUpRight className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-            </a>
-          </div>
+
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
