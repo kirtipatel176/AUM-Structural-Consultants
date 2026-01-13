@@ -183,7 +183,7 @@ export const PROJECTS: Project[] = [
     area: "50,000 Sq. Ft.",
     structure: "Residential Unit (Cost Optimization)",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1600596542815-2a429b08e695?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/ranpara.webp",
     description: "International residential project focused on re-analysis and detailing for cost optimization."
   },
   {
@@ -227,7 +227,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Bungalow",
     architect: "Axis Corporation - Mumbai",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/lunia.webp",
     description: "Architecturally driven private residence."
   },
   {
@@ -251,7 +251,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Ground + 7 Stories",
     architect: "U A Design",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/HIVE.jpeg",
     // Adding a 3D model URL for demonstration (using a placeholder GLB for now as requested)
     modelUrl: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
     description: "A modern commercial hub comprising retail spaces and corporate offices. (3D Model Available for Demo)"
@@ -264,7 +264,7 @@ export const PROJECTS: Project[] = [
     structure: "Basement + Ground + 4 Commercial Project",
     architect: "Raw Form Architects",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/PLUSE PRIME.jpeg",
     description: "Boutique commercial complex designed for high visibility."
   },
   {
@@ -275,7 +275,7 @@ export const PROJECTS: Project[] = [
     structure: "G + 3 Commercial Building & Industrial Sheds",
     architect: "Akshat The Priority",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1524813686514-a5756c97759e?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/adinath.jpeg",
     description: "Mixed-use development combining commercial and industrial utility."
   },
   {
@@ -286,7 +286,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "Nirman Associates",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1582037928769-181f2422677e?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/shivam.jpeg",
     description: "Low-rise commercial complex."
   },
   {
@@ -296,7 +296,7 @@ export const PROJECTS: Project[] = [
     area: "25,000 Sq. Ft.",
     structure: "Ground + 2 Commercial Project",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/shreeji.jpeg",
     description: "Shopping arcade designed for accessibility and flow."
   },
   {
@@ -307,7 +307,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 4 Mixed Use",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1555636222-cae831e670b3?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/copper_stone.png",
     description: "Prominent mixed-use building in Himmatnagar."
   },
   {
@@ -318,7 +318,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/seven_plaza.jpeg",
     description: "Modern retail plaza."
   },
   {
@@ -329,7 +329,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/yogi.jpeg",
     description: "Commercial space optimized for retail businesses."
   },
   {
@@ -340,7 +340,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/seven_icon.jpeg",
     description: "Stylish commercial complex."
   },
   {
@@ -351,7 +351,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/madhav_height.jpeg",
     description: "Heightened commercial visibility project."
   },
   {
@@ -362,7 +362,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Commercial Project",
     architect: "EDIFICE Consultants",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "https://images.unsplash.com/photo-1565514020176-dbf2277e9833?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/seven_sky.jpeg",
     description: "Commercial complex with modern elevation."
   },
 
@@ -374,7 +374,7 @@ export const PROJECTS: Project[] = [
     area: "1,00,000 Sq. Ft.",
     structure: "Steel Structure with Machine Foundations",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/green_acc.webp",
     description: "Heavy industrial facility for AAC block manufacturing."
   },
   {
@@ -384,7 +384,7 @@ export const PROJECTS: Project[] = [
     area: "15,000 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1565610222536-ef125c59da3e?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/vijay.jpeg",
     description: "Industrial shed for aluminium processing."
   },
   {
@@ -394,7 +394,7 @@ export const PROJECTS: Project[] = [
     area: "80,000 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/maxalaxmi.png",
     description: "Large-span steel structure for plywood manufacturing."
   },
   {
@@ -404,7 +404,7 @@ export const PROJECTS: Project[] = [
     area: "1,00,000 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1513828583688-6edbbbd4db3c?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/maxalaxmi_door.webp",
     description: "Expansive industrial facility for door manufacturing."
   },
   {
@@ -414,7 +414,7 @@ export const PROJECTS: Project[] = [
     area: "40,000 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/helican.jpeg",
     description: "Manufacturing unit with optimized steel framing."
   },
   {
@@ -424,7 +424,7 @@ export const PROJECTS: Project[] = [
     area: "10,000 Sq. Ft.",
     structure: "RCC Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/jm.webp",
     description: "Compact industrial unit using RCC."
   },
   {
@@ -434,7 +434,7 @@ export const PROJECTS: Project[] = [
     area: "20,000 Sq. Ft.",
     structure: "Cold Storage Design for Fish Storage",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/cold_storage.jpeg",
     description: "Specialized temperature-controlled storage facility."
   },
   {
@@ -444,7 +444,7 @@ export const PROJECTS: Project[] = [
     area: "12,000 Sq. Ft.",
     structure: "RCC Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/rnvl.webp",
     description: "Infrastructure support building for Surat Metro."
   },
   {
@@ -454,7 +454,7 @@ export const PROJECTS: Project[] = [
     area: "16,300 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/globestar.jpeg",
     description: "Engineering workshop and office."
   },
   {
@@ -464,7 +464,7 @@ export const PROJECTS: Project[] = [
     area: "12,000 Sq. Ft.",
     structure: "RCC Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/orbit.webp",
     description: "Industrial printing facility."
   },
   {
@@ -474,7 +474,7 @@ export const PROJECTS: Project[] = [
     area: "14,000 Sq. Ft.",
     structure: "Steel Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/shyam.jpeg",
     description: "Glass processing unit with modern facade."
   },
   {
@@ -484,7 +484,7 @@ export const PROJECTS: Project[] = [
     area: "15,000 Sq. Ft.",
     structure: "RCC Structure",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/agrimony.webp",
     description: "Agro-industrial facility."
   },
   {
@@ -495,7 +495,7 @@ export const PROJECTS: Project[] = [
     structure: "RCC Structure",
     architect: "CPWD",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/EIA.webp",
     description: "Government laboratory building."
   },
   {
@@ -506,7 +506,7 @@ export const PROJECTS: Project[] = [
     structure: "Proflex Roof + RCC Frame (Rat Proof)",
     architect: "CPWD",
     category: ProjectCategory.INDUSTRIAL,
-    imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/ICAR.jpeg",
     description: "Grain storage facility designed to be rat-proof."
   },
 
@@ -519,7 +519,7 @@ export const PROJECTS: Project[] = [
     structure: "Resort - 17 Cottages, 10 Villas",
     architect: "Axis Studio Architects",
     category: ProjectCategory.HOTEL,
-    imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/king.webp",
     description: "Luxury resort blended with nature in Sasan Gir."
   },
   {
@@ -530,7 +530,7 @@ export const PROJECTS: Project[] = [
     structure: "G + 4 to 3 Hotel Units (522 Rooms)",
     architect: "Axis Studio Architects",
     category: ProjectCategory.HOTEL,
-    imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/inovix.webp",
     description: "Large scale residence facility for TATA Semiconductor Plant."
   },
   {
@@ -541,7 +541,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 6 Hotel Project (100 rooms)",
     architect: "Axis Studio Architects",
     category: ProjectCategory.HOTEL,
-    imageUrl: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/som.webp",
     description: "Grand hotel structure in Veraval."
   },
   {
@@ -552,7 +552,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 3 Hotel Project (120 rooms)",
     architect: "Axis Studio Architects",
     category: ProjectCategory.HOTEL,
-    imageUrl: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/grand_toran.webp",
     description: "Expansive hospitality project in Porbandar."
   },
 
@@ -565,7 +565,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 5 Hospital Project",
     architect: "CPWD",
     category: ProjectCategory.HOSPITAL,
-    imageUrl: "https://images.unsplash.com/photo-1587351021759-3e566b9af923?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets//hospital_jamnagar.webp",
     description: "Public healthcare facility."
   },
   {
@@ -575,7 +575,7 @@ export const PROJECTS: Project[] = [
     area: "30,000 Sq. Ft.",
     structure: "Ground + 1 Hospital Project",
     category: ProjectCategory.HOSPITAL,
-    imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/chc.webp",
     description: "Community focused medical center."
   },
   {
@@ -586,7 +586,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 3 Hospital Project",
     architect: "Chintan Patel",
     category: ProjectCategory.HOSPITAL,
-    imageUrl: "https://images.unsplash.com/photo-1516549655169-df83a0929519?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/devarsh.jpeg",
     description: "Multispecialty hospital building."
   },
   {
@@ -597,7 +597,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 1 Hospital Project",
     architect: "Rushabh Prajapati",
     category: ProjectCategory.HOSPITAL,
-    imageUrl: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/ayushman.webp",
     description: "Modern medical facility in Mehsana."
   },
 
@@ -610,7 +610,7 @@ export const PROJECTS: Project[] = [
     structure: "Resort - 20 Weekend Villas & Banquet Hall",
     architect: "Axis Studio Architects",
     category: ProjectCategory.PARTY_PLOT,
-    imageUrl: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/avsar.webp",
     description: "Leisure and events destination."
   },
   {
@@ -620,7 +620,7 @@ export const PROJECTS: Project[] = [
     area: "15,000 Sq. Ft.",
     structure: "Party Lawn with Banquet Hall",
     category: ProjectCategory.PARTY_PLOT,
-    imageUrl: "https://images.unsplash.com/photo-1464366400600-7168b8af0bc3?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/darshiv.webp",
     description: "Open air event venue."
   },
 
@@ -633,7 +633,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Pharmacy College",
     architect: "ZP Architect",
     category: ProjectCategory.INSTITUTIONAL,
-    imageUrl: "https://images.unsplash.com/photo-1562774053-701939374585?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/sri_campus.jpeg",
     description: "Educational campus building."
   },
   {
@@ -644,7 +644,7 @@ export const PROJECTS: Project[] = [
     structure: "Ground + 2 Nursing College",
     architect: "AR. Ashok Ghohil",
     category: ProjectCategory.INSTITUTIONAL,
-    imageUrl: "https://images.unsplash.com/photo-1592280771801-e6504226f976?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/amritadevi.webp",
     description: "Large scale nursing college campus."
   },
 
@@ -668,7 +668,7 @@ export const PROJECTS: Project[] = [
     area: "60-Meter High",
     structure: "Self-Supported Double-Wall",
     category: ProjectCategory.CHIMNEY,
-    imageUrl: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=90&w=1200&auto=format&fit=crop",
+    imageUrl: "assets/ms.webp",
     description: "Industrial chimney designed for high wind loads."
   }
 ];
