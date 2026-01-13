@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className="min-h-screen bg-white text-gray-800 selection:bg-aum-orange selection:text-white">
+    <div className="relative min-h-screen bg-white text-gray-800 selection:bg-aum-orange selection:text-white">
       <AnimatePresence mode='wait'>
         {isLoading ? (
           <LoadingScreen key="loader" onComplete={() => setIsLoading(false)} />

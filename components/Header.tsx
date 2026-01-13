@@ -14,6 +14,29 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    setIsOpen(false);
+
+    // Smooth scroll to target
+    const targetId = href.replace('#', '');
+    const element = document.getElementById(targetId);
+
+    if (element) {
+      setTimeout(() => {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }, 100); // Slight delay to allow menu closing animation to start
+    } else if (href === '#home') {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  };
+
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -24,7 +47,7 @@ const Header: React.FC = () => {
   ];
 
   // Glassmorphic header classes with better contrast
-  const headerClasses = scrolled
+  const headerClasses = scrolled || isOpen
     ? 'bg-white/80 backdrop-blur-xl border-b border-white/20 shadow-sm py-3'
     : 'bg-transparent py-4 md:py-6';
 
@@ -39,10 +62,10 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-12">
           {/* Logo */}
           <div className="flex-shrink-0 flex flex-col justify-center cursor-pointer group" onClick={() => window.scrollTo(0, 0)}>
-            <h1 className={`text-2xl font-bold font-heading leading-none tracking-tight transition-colors duration-300 ${scrolled ? 'text-aum-black' : 'text-white'}`}>
+            <h1 className={`text-2xl font-bold font-heading leading-none tracking-tight transition-colors duration-300 ${scrolled || isOpen ? 'text-aum-black' : 'text-white'}`}>
               AUM
             </h1>
-            <span className={`text-[10px] tracking-[0.2em] font-medium uppercase mt-1 transition-colors duration-300 ${scrolled ? 'text-aum-orange' : 'text-gray-200 group-hover:text-white'}`}>
+            <span className={`text-[10px] tracking-[0.2em] font-medium uppercase mt-1 transition-colors duration-300 ${scrolled || isOpen ? 'text-aum-orange' : 'text-gray-200 group-hover:text-white'}`}>
               Structural Consultants
             </span>
           </div>
@@ -53,9 +76,10 @@ const Header: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 ${scrolled
-                    ? 'text-gray-600 hover:text-aum-black hover:bg-black/5'
-                    : 'text-white/90 hover:text-white hover:bg-white/10'
+                onClick={(e) => handleNavClick(e, link.href)}
+                className={`px-4 py-2 rounded-full text-xs font-medium cursor-pointer transition-all duration-300 ${scrolled
+                  ? 'text-gray-600 hover:text-aum-black hover:bg-black/5'
+                  : 'text-white/90 hover:text-white hover:bg-white/10'
                   }`}
               >
                 {link.name}
@@ -65,10 +89,10 @@ const Header: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center relative z-50">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-full transition-colors ${scrolled ? 'text-aum-black hover:bg-black/5' : 'text-white hover:bg-white/10'}`}
+              className={`p-2 rounded-full transition-colors relative z-50 pointer-events-auto ${scrolled || isOpen ? 'text-aum-black hover:bg-black/5' : 'text-white hover:bg-white/10'}`}
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -84,15 +108,15 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-xl overflow-hidden"
+            className="md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-xl overflow-hidden relative z-40"
           >
             <div className="px-4 pt-4 pb-8 space-y-2">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="block text-aum-black hover:text-aum-orange hover:bg-gray-50 px-4 py-3 rounded-xl text-sm font-medium transition-all border border-transparent hover:border-gray-100"
+                  onClick={(e) => handleNavClick(e, link.href)}
+                  className="block text-aum-black hover:text-aum-orange hover:bg-gray-50 px-4 py-3 rounded-xl text-sm font-medium transition-all border border-transparent hover:border-gray-100 pointer-events-auto cursor-pointer"
                 >
                   {link.name}
                 </a>
