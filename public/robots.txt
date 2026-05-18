@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/private paths
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /src/
+Disallow: /dist/
+
+# Sitemap location
+Sitemap: https://www.aumstructural.com/sitemap.xml
+
+# Crawl delay (be respectful to bots)
+Crawl-delay: 10
